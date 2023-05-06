@@ -4,7 +4,7 @@
     <div class="wp-inner">
       <div class="main-content fl-right">
         <div class="section" id="list-product-wp">
-          <productList :list_products="list_product"></productList>
+          <product-list :list_products="list_product"></product-list>
         </div>
       </div>
       <div class="sidebar fl-left">
@@ -30,7 +30,7 @@ export default {
 
   components: {
     Sidebar,
-    ProductList,
+    "product-list": ProductList,
     Header,
     Footer,
   },

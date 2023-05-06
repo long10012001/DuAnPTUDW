@@ -7,7 +7,7 @@ import ListProduct from "@/views/admin/ListProduct.vue";
 export default {
   name: "admin",
   components: {
-    ListProduct,
+    "list-product": ListProduct,
   },
 };
 </script>
